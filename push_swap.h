@@ -3,7 +3,7 @@
 
 # include <stdlib.h>
 # include <unistd.h>
-# include "libft.h"  // Usamos tu libft con listas y file descriptors
+# include "libft/libft.h"  // Usamos tu libft con listas y file descriptors
 
 typedef struct s_stack
 {
