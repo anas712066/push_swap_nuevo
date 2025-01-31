@@ -7,7 +7,7 @@ void parse_args(t_stack *a, char **argv)
     while (argv[i])
     {
         int value = atoi(argv[i]);
-        t_list *new_node = ft_lstnew(value);
+        t_list *new_node = ft_lstnew(int value);
         ft_lstadd_back(&a->top, new_node);
         a->size++;
         i++;
